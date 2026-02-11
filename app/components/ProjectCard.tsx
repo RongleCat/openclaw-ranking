@@ -24,69 +24,57 @@ export default function ProjectCard({
   showTime = false,
 }: ProjectCardProps) {
   return (
-    <div className="group relative overflow-hidden rounded-xl border border-border bg-card hover:bg-card-hover hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10">
+    <div className="project-card">
       {/* Rank Badge */}
-      <div className="absolute top-3 left-3 flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-primary to-secondary text-primary-foreground text-xs font-bold shadow-lg">
-        {rank}
-      </div>
+      <div className="rank-badge">{rank}</div>
 
-      <div className="flex items-center justify-between pl-12 pr-4 py-4 gap-4">
-        <div className="flex-1 min-w-0">
+      <div className="content">
+        <div className="info">
           <a
             href={`https://github.com/${name}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="block group/link"
+            className="project-link"
           >
-            <div className="flex items-center gap-3">
-              <div className="flex-1 min-w-0">
-                <h3 className="text-base font-semibold text-card-foreground group-hover/link:text-primary transition-colors">
-                  {name}
-                </h3>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <h3 className="project-name">{name}</h3>
                 {description && (
-                  <p className="text-sm text-muted-foreground line-clamp-2 mt-1">
-                    {description}
-                  </p>
+                  <p className="project-desc">{description}</p>
                 )}
               </div>
               {badge && (
-                <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-accent text-accent-foreground text-xs font-medium">
-                  {badge === '🆕' ? <Sparkles className="w-3 h-3" /> : <TrendingUp className="w-3 h-3" />}
+                <span className="badge">
+                  {badge === '🆕' ? <Sparkles width={12} height={12} /> : <TrendingUp width={12} height={12} />}
                 </span>
               )}
             </div>
           </a>
         </div>
 
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="stats">
           {showStars && (
-            <div className="flex flex-col items-center gap-1 bg-background/50 rounded-lg px-3 py-2">
-              <div className="flex items-center gap-1.5 text-primary">
-                <Star className="w-4 h-4 fill-current" />
+            <div className="stat">
+              <div className="stat-icon" style={{ color: 'var(--color-primary)' }}>
+                <Star width={16} height={16} fill="currentColor" />
               </div>
-              <span className="text-sm font-semibold text-card-foreground">
-                {stars.toLocaleString()}
-              </span>
+              <span className="stat-value">{stars.toLocaleString()}</span>
             </div>
           )}
           {showStars && forks !== undefined && (
-            <div className="flex flex-col items-center gap-1 bg-background/50 rounded-lg px-3 py-2">
-              <div className="flex items-center gap-1.5 text-muted-foreground">
-                <GitFork className="w-4 h-4" />
+            <div className="stat">
+              <div className="stat-icon" style={{ color: 'var(--color-muted-foreground)' }}>
+                <GitFork width={16} height={16} />
               </div>
-              <span className="text-sm text-card-foreground">
-                {forks.toLocaleString()}
-              </span>
+              <span className="stat-value">{forks.toLocaleString()}</span>
             </div>
           )}
           {showTime && updated && (
-            <div className="flex flex-col items-center gap-1 bg-background/50 rounded-lg px-3 py-2">
-              <div className="flex items-center gap-1.5 text-muted-foreground">
-                <Clock className="w-4 h-4" />
+            <div className="stat">
+              <div className="stat-icon" style={{ color: 'var(--color-muted-foreground)' }}>
+                <Clock width={16} height={16} />
               </div>
-              <span className="text-sm text-card-foreground font-mono">
-                {updated}
-              </span>
+              <span className="stat-value mono">{updated}</span>
             </div>
           )}
         </div>

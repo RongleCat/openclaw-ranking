@@ -11,9 +11,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="zh-CN" className="dark">
-      <body className="min-h-screen bg-background text-foreground">
-        <div className="container mx-auto max-w-6xl px-4 py-8">
+    <html lang="zh-CN">
+      <body style={{
+        minHeight: '100vh',
+        backgroundColor: 'var(--color-background)',
+        color: 'var(--color-foreground)'
+      }}>
+        <div style={{
+          maxWidth: '72rem',
+          margin: '0 auto',
+          padding: '2rem 1rem'
+        }}>
           {children}
         </div>
       </body>

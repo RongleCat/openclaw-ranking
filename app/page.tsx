@@ -44,18 +44,26 @@ export default function Home() {
   const currentData = viewType === "star" ? starData : timeData;
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto max-w-6xl px-4 py-8 space-y-8">
-        
+    <div style={{ minHeight: '100vh', backgroundColor: 'var(--color-background)' }}>
+      <div style={{ maxWidth: '72rem', margin: '0 auto', padding: '2rem 1rem', display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+
         {/* Header */}
-        <div className="space-y-6">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           {/* Title */}
-          <div className="flex items-center gap-4">
-            <div className="flex-1">
-              <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent pb-2">
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <div style={{ flex: 1 }}>
+              <h1 className="title" style={{
+                fontSize: '3rem',
+                fontWeight: 700,
+                marginBottom: '0.5rem',
+                background: 'linear-gradient(90deg, var(--color-primary), var(--color-accent), var(--color-secondary))',
+                WebkitBackgroundClip: 'text',
+                backgroundClip: 'text',
+                WebkitTextFillColor: 'transparent'
+              }}>
                 🦞 OpenClaw 排行榜
               </h1>
-              <p className="text-base md:text-lg text-muted-foreground mt-2">
+              <p style={{ fontSize: '1.125rem', color: 'var(--color-muted-foreground)', marginTop: '0.5rem' }}>
                 GitHub OpenClaw 相关项目的实时数据追踪
               </p>
             </div>
@@ -63,45 +71,54 @@ export default function Home() {
               href="https://github.com/RongleCat/openclaw-ranking"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors rounded-lg border border-border bg-card px-4 py-2 hover:border-primary/50"
+              className="btn btn-github"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', borderRadius: '0.5rem', textDecoration: 'none', fontSize: '0.875rem' }}
             >
-              <Github className="w-5 h-5" />
-              <span className="hidden sm:inline">源码</span>
+              <Github width={20} height={20} />
+              <span style={{ display: 'none' }} className="hidden-sm">源码</span>
             </a>
           </div>
 
           {/* View Toggle */}
-          <div className="flex gap-3">
+          <div style={{ display: 'flex', gap: '0.75rem' }}>
             <button
               onClick={() => setViewType("star")}
-              className={`flex items-center gap-2.5 px-5 py-2.5 rounded-xl font-medium transition-all duration-300 ${
-                viewType === "star"
-                  ? "bg-gradient-to-r from-primary to-secondary text-primary-foreground shadow-lg shadow-primary/20"
-                  : "bg-card hover:bg-card-hover text-muted-foreground border border-border hover:border-primary/30"
-              }`}
+              className="btn"
+              style={{
+                background: viewType === "star"
+                  ? 'linear-gradient(135deg, var(--color-primary), var(--color-secondary))'
+                  : 'var(--color-card)',
+                color: viewType === "star" ? 'var(--color-primary-foreground)' : 'var(--color-muted-foreground)',
+                border: viewType === "star" ? 'transparent' : '1px solid var(--color-border)',
+                boxShadow: viewType === "star" ? '0 10px 15px -3px rgba(217, 70, 239, 0.2)' : 'none'
+              }}
             >
-              <Star className="w-4 h-4" />
-              <span className="text-sm">Star 排行榜</span>
+              <Star width={16} height={16} />
+              <span>Star 排行榜</span>
             </button>
             <button
               onClick={() => setViewType("time")}
-              className={`flex items-center gap-2.5 px-5 py-2.5 rounded-xl font-medium transition-all duration-300 ${
-                viewType === "time"
-                  ? "bg-gradient-to-r from-primary to-secondary text-primary-foreground shadow-lg shadow-primary/20"
-                  : "bg-card hover:bg-card-hover text-muted-foreground border border-border hover:border-primary/30"
-              }`}
+              className="btn"
+              style={{
+                background: viewType === "time"
+                  ? 'linear-gradient(135deg, var(--color-primary), var(--color-secondary))'
+                  : 'var(--color-card)',
+                color: viewType === "time" ? 'var(--color-primary-foreground)' : 'var(--color-muted-foreground)',
+                border: viewType === "time" ? 'transparent' : '1px solid var(--color-border)',
+                boxShadow: viewType === "time" ? '0 10px 15px -3px rgba(217, 70, 239, 0.2)' : 'none'
+              }}
             >
-              <Clock className="w-4 h-4" />
-              <span className="text-sm">时间排行榜</span>
+              <Clock width={16} height={16} />
+              <span>时间排行榜</span>
             </button>
           </div>
 
           {/* Update Time */}
           {currentData && (
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <Sparkles className="w-4 h-4" />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.875rem', color: 'var(--color-muted-foreground)' }}>
+              <Sparkles width={16} height={16} />
               <span>
-                更新时间：<span className="font-medium text-card-foreground ml-1">{currentData.timestamp}</span>
+                更新时间：<span style={{ fontWeight: 500, color: 'var(--color-card-foreground)', marginLeft: '0.25rem' }}>{currentData.timestamp}</span>
               </span>
             </div>
           )}
@@ -109,34 +126,34 @@ export default function Home() {
 
         {/* Loading State */}
         {loading && (
-          <div className="flex flex-col items-center justify-center py-20">
-            <div className="animate-spin rounded-full h-12 w-12 border-4 border-primary border-t-transparent"></div>
-            <p className="mt-4 text-muted-foreground">加载中...</p>
+          <div className="loading">
+            <div className="spinner"></div>
+            <p style={{ marginTop: '1rem', color: 'var(--color-muted-foreground)' }}>加载中...</p>
           </div>
         )}
 
         {/* Table Header */}
         {!loading && currentData && (
-          <div className="space-y-1">
-            <div className="bg-gradient-to-r from-card to-card-hover rounded-2xl border border-border p-6 shadow-lg">
-              <div className="hidden sm:grid grid-cols-12 gap-4 pb-4 text-sm font-medium text-muted-foreground">
-                <div className="col-span-1">排名</div>
-                <div className="col-span-5">项目</div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+            <div className="card">
+              <div className="table-header">
+                <div style={{ gridColumn: 'span 1' }}>排名</div>
+                <div style={{ gridColumn: 'span 5' }}>项目</div>
                 {viewType === "star" ? (
                   <>
-                    <div className="col-span-2 text-center">Star</div>
-                    <div className="col-span-2 text-center">Fork</div>
+                    <div style={{ gridColumn: 'span 2', textAlign: 'center' }}>Star</div>
+                    <div style={{ gridColumn: 'span 2', textAlign: 'center' }}>Fork</div>
                   </>
                 ) : (
                   <>
-                    <div className="col-span-3 text-center">最新更新</div>
-                    <div className="col-span-2 text-center">Star</div>
+                    <div style={{ gridColumn: 'span 3', textAlign: 'center' }}>最新更新</div>
+                    <div style={{ gridColumn: 'span 2', textAlign: 'center' }}>Star</div>
                   </>
                 )}
               </div>
 
               {/* Project List */}
-              <div className="space-y-2">
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 {currentData.projects.map((project, index) => (
                   <ProjectCard
                     key={project.id}
@@ -162,13 +179,13 @@ export default function Home() {
 
         {/* Legend */}
         {!loading && currentData && (
-          <div className="flex items-center justify-center gap-4 py-6 text-sm text-muted-foreground">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-background/50 border border-border">
-              <Sparkles className="w-4 h-4" />
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', padding: '1.5rem 0', fontSize: '0.875rem', color: 'var(--color-muted-foreground)' }}>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.375rem', padding: '0.375rem 0.75rem', borderRadius: '0.5rem', backgroundColor: 'rgba(255, 255, 255, 0.05)', border: '1px solid var(--color-border)' }}>
+              <Sparkles width={16} height={16} />
               <span>新上榜</span>
             </span>
-            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-background/50 border border-border">
-              <TrendingUp className="w-4 h-4" />
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.375rem', padding: '0.375rem 0.75rem', borderRadius: '0.5rem', backgroundColor: 'rgba(255, 255, 255, 0.05)', border: '1px solid var(--color-border)' }}>
+              <TrendingUp width={16} height={16} />
               <span>排名上升</span>
             </span>
           </div>
@@ -176,13 +193,13 @@ export default function Home() {
 
         {/* Footer */}
         {!loading && currentData && (
-          <footer className="flex flex-col items-center gap-2 py-6 text-sm text-muted-foreground border-t border-border">
-            <div className="flex items-center gap-2">
-              <Sparkles className="w-4 h-4" />
+          <footer style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem', padding: '1.5rem 0', fontSize: '0.875rem', color: 'var(--color-muted-foreground)', borderTop: '1px solid var(--color-border)' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <Sparkles width={16} height={16} />
               <span>由 Vercel 驱动 · 数据来源 GitHub API</span>
             </div>
-            <div className="text-xs">
-              Powered by Next.js · Tailwind CSS · Lucide Icons
+            <div style={{ fontSize: '0.75rem' }}>
+              Powered by Next.js · 原生 CSS · Lucide Icons
             </div>
           </footer>
         )}
