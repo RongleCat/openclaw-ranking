@@ -2,27 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 217.2 32% 17.5%;
-    --card-foreground: 210 40% 98%;
-    --card-hover: 217.2 38% 22%;
-    --border: 217.2 84% 50.8%;
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 217.2 70.2% 50%;
-    --accent: 217.2 70.2% 30%;
-    --muted: 217.2 84% 65.1%;
-  }
+* {
+  @apply border-border;
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+body {
+  @apply bg-background text-foreground;
 }
+
