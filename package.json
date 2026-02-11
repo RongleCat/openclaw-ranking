@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "vercel --prod"
+    "deploy": "vercel --prod",
+    "update-data": "node scripts/copy-data.js",
+    "update-and-deploy": "npm run update-data && npm run deploy"
   },
   "dependencies": {
     "next": "15.0.3",
