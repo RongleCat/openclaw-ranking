@@ -1,299 +1,306 @@
 {
-  "timestamp": "2026/2/15 20:00:09",
+  "timestamp": "2026/2/16 12:00:12",
   "projects": [
-    {
-      "id": 1153093670,
-      "full_name": "hesamsheikh/awesome-openclaw-usecases",
-      "stars": 2481,
-      "forks": 180,
-      "updated_at": "2026-02-15T11:59:55Z"
-    },
     {
       "id": 1103012935,
       "full_name": "openclaw/openclaw",
-      "stars": 195541,
-      "forks": 33840,
-      "updated_at": "2026-02-15T11:59:44Z"
+      "stars": 197827,
+      "forks": 34592,
+      "updated_at": "2026-02-16T04:00:08Z"
     },
     {
-      "id": 1126728730,
-      "full_name": "openclaw/nix-openclaw",
-      "stars": 354,
-      "forks": 102,
-      "updated_at": "2026-02-15T11:58:47Z"
-    },
-    {
-      "id": 1141704318,
-      "full_name": "VoltAgent/awesome-openclaw-skills",
-      "stars": 15223,
-      "forks": 1537,
-      "updated_at": "2026-02-15T11:58:42Z"
-    },
-    {
-      "id": 1154147877,
-      "full_name": "digitalknk/openclaw-runbook",
-      "stars": 262,
-      "forks": 18,
-      "updated_at": "2026-02-15T11:58:30Z"
-    },
-    {
-      "id": 1156162551,
-      "full_name": "freestylefly/openclaw-wechat",
-      "stars": 475,
-      "forks": 170,
-      "updated_at": "2026-02-15T11:56:45Z"
-    },
-    {
-      "id": 1144717747,
-      "full_name": "clawdbot-ai/awesome-openclaw-skills-zh",
-      "stars": 424,
-      "forks": 55,
-      "updated_at": "2026-02-15T11:55:15Z"
-    },
-    {
-      "id": 1143968677,
-      "full_name": "BytePioneer-AI/openclaw-china",
-      "stars": 683,
-      "forks": 94,
-      "updated_at": "2026-02-15T11:54:07Z"
-    },
-    {
-      "id": 1145420469,
-      "full_name": "moltis-org/moltis",
-      "stars": 845,
-      "forks": 78,
-      "updated_at": "2026-02-15T11:48:46Z"
-    },
-    {
-      "id": 1145079835,
-      "full_name": "phioranex/openclaw-docker",
-      "stars": 300,
-      "forks": 51,
-      "updated_at": "2026-02-15T11:47:23Z"
+      "id": 1153093670,
+      "full_name": "hesamsheikh/awesome-openclaw-usecases",
+      "stars": 2885,
+      "forks": 210,
+      "updated_at": "2026-02-16T03:59:41Z"
     },
     {
       "id": 1127248221,
       "full_name": "openclaw/clawhub",
-      "stars": 1999,
-      "forks": 428,
-      "updated_at": "2026-02-15T11:44:45Z"
+      "stars": 2048,
+      "forks": 440,
+      "updated_at": "2026-02-16T03:58:56Z"
     },
     {
-      "id": 1150696087,
-      "full_name": "rookiestar28/ComfyUI-OpenClaw",
-      "stars": 281,
-      "forks": 27,
-      "updated_at": "2026-02-15T11:43:19Z"
-    },
-    {
-      "id": 1145193611,
-      "full_name": "miaoxworld/OpenClawInstaller",
-      "stars": 1735,
-      "forks": 262,
-      "updated_at": "2026-02-15T11:43:18Z"
-    },
-    {
-      "id": 1147148934,
-      "full_name": "voocel/openclaw-mini",
-      "stars": 356,
-      "forks": 32,
-      "updated_at": "2026-02-15T11:31:40Z"
-    },
-    {
-      "id": 1157128270,
-      "full_name": "andyhuo520/openclaw-assistant-mvp",
-      "stars": 198,
-      "forks": 27,
-      "updated_at": "2026-02-15T11:28:23Z"
-    },
-    {
-      "id": 1153061213,
-      "full_name": "rohitg00/awesome-openclaw",
-      "stars": 185,
-      "forks": 33,
-      "updated_at": "2026-02-15T11:25:05Z"
-    },
-    {
-      "id": 1143106156,
-      "full_name": "soimy/openclaw-channel-dingtalk",
-      "stars": 495,
-      "forks": 83,
-      "updated_at": "2026-02-15T11:22:48Z"
-    },
-    {
-      "id": 1150626239,
-      "full_name": "ValueCell-ai/ClawX",
-      "stars": 445,
-      "forks": 51,
-      "updated_at": "2026-02-15T11:21:23Z"
-    },
-    {
-      "id": 1147351377,
-      "full_name": "manish-raana/openclaw-mission-control",
-      "stars": 168,
-      "forks": 40,
-      "updated_at": "2026-02-15T11:17:20Z"
-    },
-    {
-      "id": 1145578929,
-      "full_name": "lekt9/openclaw-foundry",
-      "stars": 159,
-      "forks": 14,
-      "updated_at": "2026-02-15T11:13:00Z"
-    },
-    {
-      "id": 1149463075,
-      "full_name": "openperf/openclaw-cloud",
-      "stars": 230,
-      "forks": 27,
-      "updated_at": "2026-02-15T11:02:03Z"
-    },
-    {
-      "id": 1143491272,
-      "full_name": "dingxiang-me/OpenClaw-Wechat",
-      "stars": 145,
-      "forks": 26,
-      "updated_at": "2026-02-15T10:56:29Z"
+      "id": 1156162551,
+      "full_name": "freestylefly/openclaw-wechat",
+      "stars": 557,
+      "forks": 190,
+      "updated_at": "2026-02-16T03:56:31Z"
     },
     {
       "id": 1147210886,
       "full_name": "justlovemaki/OpenClaw-Docker-CN-IM",
-      "stars": 1596,
-      "forks": 174,
-      "updated_at": "2026-02-15T10:46:00Z"
+      "stars": 1611,
+      "forks": 179,
+      "updated_at": "2026-02-16T03:54:42Z"
     },
     {
-      "id": 1143440578,
-      "full_name": "lekt9/unbrowse-openclaw",
-      "stars": 316,
-      "forks": 20,
-      "updated_at": "2026-02-15T10:30:51Z"
+      "id": 1141704318,
+      "full_name": "VoltAgent/awesome-openclaw-skills",
+      "stars": 15469,
+      "forks": 1565,
+      "updated_at": "2026-02-16T03:53:42Z"
+    },
+    {
+      "id": 1153061213,
+      "full_name": "rohitg00/awesome-openclaw",
+      "stars": 211,
+      "forks": 37,
+      "updated_at": "2026-02-16T03:53:25Z"
+    },
+    {
+      "id": 1150626239,
+      "full_name": "ValueCell-ai/ClawX",
+      "stars": 469,
+      "forks": 54,
+      "updated_at": "2026-02-16T03:50:43Z"
+    },
+    {
+      "id": 1157128270,
+      "full_name": "andyhuo520/openclaw-assistant-mvp",
+      "stars": 272,
+      "forks": 40,
+      "updated_at": "2026-02-16T03:50:16Z"
+    },
+    {
+      "id": 1145420469,
+      "full_name": "moltis-org/moltis",
+      "stars": 926,
+      "forks": 85,
+      "updated_at": "2026-02-16T03:45:35Z"
+    },
+    {
+      "id": 1145193611,
+      "full_name": "miaoxworld/OpenClawInstaller",
+      "stars": 1754,
+      "forks": 265,
+      "updated_at": "2026-02-16T03:44:53Z"
+    },
+    {
+      "id": 1150696087,
+      "full_name": "rookiestar28/ComfyUI-OpenClaw",
+      "stars": 306,
+      "forks": 30,
+      "updated_at": "2026-02-16T03:37:24Z"
     },
     {
       "id": 1144284308,
       "full_name": "AlexAnys/openclaw-feishu",
-      "stars": 176,
-      "forks": 20,
-      "updated_at": "2026-02-15T10:20:26Z"
+      "stars": 179,
+      "forks": 21,
+      "updated_at": "2026-02-16T03:29:03Z"
     },
     {
-      "id": 1152654395,
-      "full_name": "ComposioHQ/secure-openclaw",
-      "stars": 1513,
-      "forks": 247,
-      "updated_at": "2026-02-15T10:07:59Z"
+      "id": 1145079835,
+      "full_name": "phioranex/openclaw-docker",
+      "stars": 317,
+      "forks": 52,
+      "updated_at": "2026-02-16T03:26:31Z"
     },
     {
-      "id": 1144728715,
-      "full_name": "shanselman/openclaw-windows-hub",
-      "stars": 222,
-      "forks": 11,
-      "updated_at": "2026-02-15T10:07:27Z"
+      "id": 1126728730,
+      "full_name": "openclaw/nix-openclaw",
+      "stars": 365,
+      "forks": 104,
+      "updated_at": "2026-02-16T03:24:15Z"
     },
     {
-      "id": 1146684307,
-      "full_name": "coollabsio/openclaw",
-      "stars": 187,
-      "forks": 49,
-      "updated_at": "2026-02-15T10:02:40Z"
+      "id": 1154147877,
+      "full_name": "digitalknk/openclaw-runbook",
+      "stars": 288,
+      "forks": 19,
+      "updated_at": "2026-02-16T03:22:57Z"
     },
     {
-      "id": 1141784216,
-      "full_name": "molt-bot/openclaw-trading-assistant",
-      "stars": 149,
-      "forks": 43,
-      "updated_at": "2026-02-15T09:57:11Z"
+      "id": 1157702154,
+      "full_name": "joshavant/clawbox",
+      "stars": 156,
+      "forks": 13,
+      "updated_at": "2026-02-16T03:22:35Z"
     },
     {
-      "id": 1130539840,
-      "full_name": "openclaw/openclaw-ansible",
-      "stars": 311,
-      "forks": 138,
-      "updated_at": "2026-02-15T09:49:13Z"
+      "id": 1143968677,
+      "full_name": "BytePioneer-AI/openclaw-china",
+      "stars": 688,
+      "forks": 94,
+      "updated_at": "2026-02-16T03:17:35Z"
     },
     {
-      "id": 1144540234,
-      "full_name": "grp06/openclaw-studio",
-      "stars": 443,
-      "forks": 63,
-      "updated_at": "2026-02-15T09:37:44Z"
+      "id": 1147351377,
+      "full_name": "manish-raana/openclaw-mission-control",
+      "stars": 174,
+      "forks": 41,
+      "updated_at": "2026-02-16T03:12:23Z"
     },
     {
       "id": 1142701705,
       "full_name": "BankrBot/openclaw-skills",
-      "stars": 667,
-      "forks": 195,
-      "updated_at": "2026-02-15T09:13:28Z"
+      "stars": 681,
+      "forks": 198,
+      "updated_at": "2026-02-16T02:54:24Z"
     },
     {
-      "id": 1081166515,
-      "full_name": "openguardrails/openguardrails",
-      "stars": 230,
-      "forks": 36,
-      "updated_at": "2026-02-15T08:58:45Z"
-    },
-    {
-      "id": 1143104837,
-      "full_name": "AlexAnys/feishu-openclaw",
-      "stars": 282,
-      "forks": 33,
-      "updated_at": "2026-02-15T08:30:39Z"
+      "id": 1130539840,
+      "full_name": "openclaw/openclaw-ansible",
+      "stars": 320,
+      "forks": 140,
+      "updated_at": "2026-02-16T02:51:44Z"
     },
     {
       "id": 1147071593,
       "full_name": "miaoxworld/openclaw-manager",
-      "stars": 225,
+      "stars": 236,
       "forks": 43,
-      "updated_at": "2026-02-15T08:12:17Z"
+      "updated_at": "2026-02-16T02:31:18Z"
     },
     {
-      "id": 1145075367,
-      "full_name": "sunnoy/openclaw-plugin-wecom",
-      "stars": 184,
-      "forks": 20,
-      "updated_at": "2026-02-15T08:01:10Z"
+      "id": 1152654395,
+      "full_name": "ComposioHQ/secure-openclaw",
+      "stars": 1520,
+      "forks": 252,
+      "updated_at": "2026-02-16T02:30:28Z"
     },
     {
-      "id": 1144107326,
-      "full_name": "DingTalk-Real-AI/dingtalk-moltbot-connector",
-      "stars": 1250,
-      "forks": 75,
-      "updated_at": "2026-02-15T07:33:22Z"
-    },
-    {
-      "id": 784773119,
-      "full_name": "SamurAIGPT/awesome-openclaw",
-      "stars": 589,
-      "forks": 96,
-      "updated_at": "2026-02-15T07:31:28Z"
-    },
-    {
-      "id": 1128599035,
-      "full_name": "openclaw/openclaw.ai",
-      "stars": 166,
-      "forks": 104,
-      "updated_at": "2026-02-15T02:11:51Z"
+      "id": 1149463075,
+      "full_name": "openperf/openclaw-cloud",
+      "stars": 237,
+      "forks": 27,
+      "updated_at": "2026-02-16T02:24:42Z"
     },
     {
       "id": 1143346132,
       "full_name": "supermemoryai/openclaw-supermemory",
-      "stars": 290,
-      "forks": 34,
-      "updated_at": "2026-02-14T23:29:37Z"
+      "stars": 309,
+      "forks": 36,
+      "updated_at": "2026-02-16T02:10:02Z"
+    },
+    {
+      "id": 1144717747,
+      "full_name": "clawdbot-ai/awesome-openclaw-skills-zh",
+      "stars": 438,
+      "forks": 55,
+      "updated_at": "2026-02-16T01:25:48Z"
+    },
+    {
+      "id": 784773119,
+      "full_name": "SamurAIGPT/awesome-openclaw",
+      "stars": 599,
+      "forks": 98,
+      "updated_at": "2026-02-16T01:20:58Z"
+    },
+    {
+      "id": 1147148934,
+      "full_name": "voocel/openclaw-mini",
+      "stars": 358,
+      "forks": 32,
+      "updated_at": "2026-02-16T00:56:28Z"
+    },
+    {
+      "id": 1144540234,
+      "full_name": "grp06/openclaw-studio",
+      "stars": 446,
+      "forks": 63,
+      "updated_at": "2026-02-16T00:16:39Z"
+    },
+    {
+      "id": 1146684307,
+      "full_name": "coollabsio/openclaw",
+      "stars": 194,
+      "forks": 50,
+      "updated_at": "2026-02-15T23:30:44Z"
+    },
+    {
+      "id": 1143440578,
+      "full_name": "lekt9/unbrowse-openclaw",
+      "stars": 317,
+      "forks": 20,
+      "updated_at": "2026-02-15T23:29:47Z"
+    },
+    {
+      "id": 1143106156,
+      "full_name": "soimy/openclaw-channel-dingtalk",
+      "stars": 498,
+      "forks": 85,
+      "updated_at": "2026-02-15T23:24:16Z"
+    },
+    {
+      "id": 1145075367,
+      "full_name": "sunnoy/openclaw-plugin-wecom",
+      "stars": 188,
+      "forks": 20,
+      "updated_at": "2026-02-15T21:59:59Z"
+    },
+    {
+      "id": 1145578929,
+      "full_name": "lekt9/openclaw-foundry",
+      "stars": 160,
+      "forks": 15,
+      "updated_at": "2026-02-15T21:47:16Z"
+    },
+    {
+      "id": 1141784216,
+      "full_name": "molt-bot/openclaw-trading-assistant",
+      "stars": 150,
+      "forks": 44,
+      "updated_at": "2026-02-15T20:58:24Z"
+    },
+    {
+      "id": 1144728715,
+      "full_name": "shanselman/openclaw-windows-hub",
+      "stars": 223,
+      "forks": 11,
+      "updated_at": "2026-02-15T20:49:47Z"
+    },
+    {
+      "id": 1081166515,
+      "full_name": "openguardrails/openguardrails",
+      "stars": 231,
+      "forks": 36,
+      "updated_at": "2026-02-15T17:59:05Z"
+    },
+    {
+      "id": 1143491272,
+      "full_name": "dingxiang-me/OpenClaw-Wechat",
+      "stars": 147,
+      "forks": 25,
+      "updated_at": "2026-02-15T17:48:36Z"
+    },
+    {
+      "id": 1144107326,
+      "full_name": "DingTalk-Real-AI/dingtalk-moltbot-connector",
+      "stars": 1252,
+      "forks": 75,
+      "updated_at": "2026-02-15T16:31:32Z"
+    },
+    {
+      "id": 1128599035,
+      "full_name": "openclaw/openclaw.ai",
+      "stars": 167,
+      "forks": 107,
+      "updated_at": "2026-02-15T13:46:00Z"
     },
     {
       "id": 84315864,
       "full_name": "pjasicek/OpenClaw",
-      "stars": 417,
+      "stars": 418,
       "forks": 57,
-      "updated_at": "2026-02-14T21:32:30Z"
+      "updated_at": "2026-02-15T13:41:54Z"
     },
     {
       "id": 948723723,
       "full_name": "SaseQ/discord-mcp",
-      "stars": 181,
+      "stars": 182,
       "forks": 39,
-      "updated_at": "2026-02-14T21:16:09Z"
+      "updated_at": "2026-02-15T13:21:32Z"
+    },
+    {
+      "id": 1143104837,
+      "full_name": "AlexAnys/feishu-openclaw",
+      "stars": 281,
+      "forks": 33,
+      "updated_at": "2026-02-15T13:20:18Z"
     }
   ]
 }
