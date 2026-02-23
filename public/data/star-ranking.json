@@ -1,52 +1,52 @@
 {
-  "timestamp": "2026/2/23 04:04:03",
+  "timestamp": "2026/2/23 08:03:54",
   "projects": [
     {
       "id": 1103012935,
       "full_name": "openclaw/openclaw",
-      "stars": 218274,
-      "forks": 41359,
-      "updated_at": "2026-02-22T20:03:20Z",
+      "stars": 218570,
+      "forks": 41454,
+      "updated_at": "2026-02-23T00:02:40Z",
       "rank": 1
     },
     {
       "id": 1141704318,
       "full_name": "VoltAgent/awesome-openclaw-skills",
-      "stars": 18113,
-      "forks": 1855,
-      "updated_at": "2026-02-22T20:04:00Z",
+      "stars": 18171,
+      "forks": 1862,
+      "updated_at": "2026-02-23T00:03:20Z",
       "rank": 2
     },
     {
       "id": 1153093670,
       "full_name": "hesamsheikh/awesome-openclaw-usecases",
-      "stars": 5606,
-      "forks": 421,
-      "updated_at": "2026-02-22T20:03:08Z",
+      "stars": 5648,
+      "forks": 428,
+      "updated_at": "2026-02-23T00:02:02Z",
       "rank": 3
     },
     {
       "id": 1158605484,
       "full_name": "HKUDS/ClawWork",
-      "stars": 5043,
+      "stars": 5082,
       "forks": 612,
-      "updated_at": "2026-02-22T20:02:13Z",
+      "updated_at": "2026-02-23T00:02:48Z",
       "rank": 4
-    },
-    {
-      "id": 1127248221,
-      "full_name": "openclaw/clawhub",
-      "stars": 2579,
-      "forks": 582,
-      "updated_at": "2026-02-22T19:54:29Z",
-      "rank": 5
     },
     {
       "id": 1158588224,
       "full_name": "AlexsJones/llmfit",
-      "stars": 2435,
-      "forks": 123,
-      "updated_at": "2026-02-22T20:03:42Z",
+      "stars": 2615,
+      "forks": 135,
+      "updated_at": "2026-02-23T00:01:59Z",
+      "rank": 5
+    },
+    {
+      "id": 1127248221,
+      "full_name": "openclaw/clawhub",
+      "stars": 2582,
+      "forks": 584,
+      "updated_at": "2026-02-22T22:49:30Z",
       "rank": 6
     },
     {
@@ -60,25 +60,25 @@
     {
       "id": 1147210886,
       "full_name": "justlovemaki/OpenClaw-Docker-CN-IM",
-      "stars": 1777,
+      "stars": 1778,
       "forks": 204,
-      "updated_at": "2026-02-22T19:49:04Z",
+      "updated_at": "2026-02-22T22:27:45Z",
       "rank": 8
     },
     {
       "id": 1152654395,
       "full_name": "ComposioHQ/secure-openclaw",
-      "stars": 1516,
+      "stars": 1518,
       "forks": 252,
-      "updated_at": "2026-02-22T17:09:33Z",
+      "updated_at": "2026-02-22T23:33:34Z",
       "rank": 9
     },
     {
       "id": 1145420469,
       "full_name": "moltis-org/moltis",
-      "stars": 1328,
-      "forks": 132,
-      "updated_at": "2026-02-22T20:01:21Z",
+      "stars": 1338,
+      "forks": 134,
+      "updated_at": "2026-02-22T23:55:55Z",
       "rank": 10
     },
     {
@@ -92,9 +92,9 @@
     {
       "id": 1150626239,
       "full_name": "ValueCell-ai/ClawX",
-      "stars": 1217,
+      "stars": 1220,
       "forks": 145,
-      "updated_at": "2026-02-22T19:54:31Z",
+      "updated_at": "2026-02-22T23:49:33Z",
       "rank": 12
     },
     {
@@ -108,9 +108,9 @@
     {
       "id": 1142701705,
       "full_name": "BankrBot/openclaw-skills",
-      "stars": 876,
-      "forks": 253,
-      "updated_at": "2026-02-22T19:54:30Z",
+      "stars": 878,
+      "forks": 254,
+      "updated_at": "2026-02-22T22:30:48Z",
       "rank": 14
     },
     {
@@ -118,56 +118,64 @@
       "full_name": "BytePioneer-AI/openclaw-china",
       "stars": 781,
       "forks": 106,
-      "updated_at": "2026-02-22T18:04:49Z",
+      "updated_at": "2026-02-22T23:59:13Z",
       "rank": 15
     },
     {
       "id": 1156162551,
       "full_name": "freestylefly/openclaw-wechat",
       "stars": 730,
-      "forks": 224,
+      "forks": 225,
       "updated_at": "2026-02-22T20:00:50Z",
       "rank": 16
     },
     {
       "id": 1154147877,
       "full_name": "digitalknk/openclaw-runbook",
-      "stars": 694,
-      "forks": 60,
-      "updated_at": "2026-02-22T18:43:57Z",
+      "stars": 701,
+      "forks": 61,
+      "updated_at": "2026-02-22T23:34:11Z",
       "rank": 17
     },
     {
       "id": 1153476922,
       "full_name": "mosaxiv/clawlet",
-      "stars": 670,
+      "stars": 671,
       "forks": 34,
-      "updated_at": "2026-02-22T15:24:04Z",
+      "updated_at": "2026-02-22T23:31:56Z",
       "rank": 18
     },
     {
       "id": 784773119,
       "full_name": "SamurAIGPT/awesome-openclaw",
-      "stars": 658,
-      "forks": 109,
-      "updated_at": "2026-02-22T17:50:56Z",
+      "stars": 662,
+      "forks": 110,
+      "updated_at": "2026-02-22T23:36:52Z",
       "rank": 19
     },
     {
       "id": 1144717747,
       "full_name": "clawdbot-ai/awesome-openclaw-skills-zh",
-      "stars": 643,
+      "stars": 646,
       "forks": 78,
-      "updated_at": "2026-02-22T18:42:23Z",
+      "updated_at": "2026-02-22T22:51:06Z",
       "rank": 20
     },
     {
       "id": 1144540234,
       "full_name": "grp06/openclaw-studio",
-      "stars": 566,
-      "forks": 74,
-      "updated_at": "2026-02-22T19:56:24Z",
+      "stars": 572,
+      "forks": 75,
+      "updated_at": "2026-02-22T23:30:16Z",
       "rank": 21
+    },
+    {
+      "id": 1147379948,
+      "full_name": "abhi1693/openclaw-mission-control",
+      "stars": 563,
+      "forks": 142,
+      "updated_at": "2026-02-22T23:38:54Z",
+      "rank": 22
     },
     {
       "id": 1143106156,
@@ -175,46 +183,38 @@
       "stars": 552,
       "forks": 92,
       "updated_at": "2026-02-22T15:35:19Z",
-      "rank": 22
+      "rank": 23
     },
     {
       "id": 1136611506,
       "full_name": "openclaw/lobster",
       "stars": 541,
-      "forks": 153,
+      "forks": 154,
       "updated_at": "2026-02-22T19:54:29Z",
-      "rank": 23
-    },
-    {
-      "id": 1147379948,
-      "full_name": "abhi1693/openclaw-mission-control",
-      "stars": 535,
-      "forks": 134,
-      "updated_at": "2026-02-22T19:59:11Z",
       "rank": 24
     },
     {
       "id": 1151068646,
       "full_name": "Curbob/LobsterBoard",
-      "stars": 508,
-      "forks": 68,
-      "updated_at": "2026-02-22T18:47:09Z",
+      "stars": 511,
+      "forks": 69,
+      "updated_at": "2026-02-22T23:39:13Z",
       "rank": 25
     },
     {
       "id": 1143346132,
       "full_name": "supermemoryai/openclaw-supermemory",
-      "stars": 451,
+      "stars": 453,
       "forks": 44,
-      "updated_at": "2026-02-22T15:53:13Z",
+      "updated_at": "2026-02-22T23:43:35Z",
       "rank": 26
     },
     {
       "id": 1126728730,
       "full_name": "openclaw/nix-openclaw",
-      "stars": 433,
+      "stars": 434,
       "forks": 143,
-      "updated_at": "2026-02-22T18:21:38Z",
+      "updated_at": "2026-02-22T21:11:03Z",
       "rank": 27
     },
     {
@@ -228,9 +228,9 @@
     {
       "id": 1145079835,
       "full_name": "phioranex/openclaw-docker",
-      "stars": 414,
-      "forks": 63,
-      "updated_at": "2026-02-22T19:59:56Z",
+      "stars": 416,
+      "forks": 64,
+      "updated_at": "2026-02-22T22:51:46Z",
       "rank": 29
     },
     {
@@ -252,9 +252,9 @@
     {
       "id": 1130539840,
       "full_name": "openclaw/openclaw-ansible",
-      "stars": 382,
+      "stars": 384,
       "forks": 190,
-      "updated_at": "2026-02-22T19:54:29Z",
+      "updated_at": "2026-02-22T22:19:44Z",
       "rank": 32
     },
     {
@@ -268,9 +268,9 @@
     {
       "id": 1143440578,
       "full_name": "lekt9/unbrowse-openclaw",
-      "stars": 363,
+      "stars": 364,
       "forks": 26,
-      "updated_at": "2026-02-22T18:23:20Z",
+      "updated_at": "2026-02-22T21:37:43Z",
       "rank": 34
     },
     {
@@ -292,9 +292,9 @@
     {
       "id": 1147071593,
       "full_name": "miaoxworld/openclaw-manager",
-      "stars": 290,
+      "stars": 291,
       "forks": 57,
-      "updated_at": "2026-02-22T17:44:36Z",
+      "updated_at": "2026-02-22T23:16:32Z",
       "rank": 37
     },
     {
@@ -316,10 +316,18 @@
     {
       "id": 1161355400,
       "full_name": "yeuxuan/openclaw-docs",
-      "stars": 259,
+      "stars": 261,
       "forks": 31,
-      "updated_at": "2026-02-22T19:41:14Z",
+      "updated_at": "2026-02-22T22:12:55Z",
       "rank": 40
+    },
+    {
+      "id": 1163982597,
+      "full_name": "Kirubel125/Kalshi-Claw",
+      "stars": 258,
+      "forks": 0,
+      "updated_at": "2026-02-22T23:52:58Z",
+      "rank": 41
     },
     {
       "id": 1144728715,
@@ -327,7 +335,7 @@
       "stars": 254,
       "forks": 16,
       "updated_at": "2026-02-22T15:46:48Z",
-      "rank": 41
+      "rank": 42
     },
     {
       "id": 1149463075,
@@ -335,7 +343,7 @@
       "stars": 253,
       "forks": 29,
       "updated_at": "2026-02-22T17:45:02Z",
-      "rank": 42
+      "rank": 43
     },
     {
       "id": 1081166515,
@@ -343,14 +351,6 @@
       "stars": 235,
       "forks": 37,
       "updated_at": "2026-02-22T16:03:19Z",
-      "rank": 43
-    },
-    {
-      "id": 1146684307,
-      "full_name": "coollabsio/openclaw",
-      "stars": 231,
-      "forks": 60,
-      "updated_at": "2026-02-22T18:38:54Z",
       "rank": 44
     }
   ]
